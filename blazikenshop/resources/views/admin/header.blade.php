@@ -11,3 +11,9 @@
     href="/laravel/blazikenshop/public/template/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
 <!-- Theme style -->
 <link rel="stylesheet" href="/laravel/blazikenshop/public/template/admin/dist/css/adminlte.min.css">
+
+{{-- <meta name="csrf-token" content="{{ csrf_token() }}"> --}}
+
+<meta name="csrf-token" content="{{ csrf_token() }}">
+
+@yield('head')

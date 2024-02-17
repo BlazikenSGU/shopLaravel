@@ -21,8 +21,6 @@
             <ul class="navbar-nav ml-auto">
                 <!-- Navbar Search -->
 
-
-
                 <li class="nav-item">
                     <a class="nav-link" data-widget="fullscreen" href="#" role="button">
                         <i class="fas fa-expand-arrows-alt"></i>
@@ -41,6 +39,8 @@
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
+
+                    @include('admin.alert')
                     <div class="row">
                         <!-- left column -->
                         <div class="col-md-12">
@@ -78,11 +78,6 @@
             reserved.
         </footer>
 
-        {{-- <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-        </aside>
-        <!-- /.control-sidebar --> --}}
     </div>
     <!-- ./wrapper -->
 
